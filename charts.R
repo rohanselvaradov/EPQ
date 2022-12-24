@@ -92,7 +92,7 @@ curriculum %>%
   scale_x_date() +
   scale_y_continuous(labels = comma) +
   theme_bw() +
-  theme(legend.position=c(0.85, 0.84),
+  theme(legend.position=c(0.8385, 0.84),
         panel.grid = element_line(color = col_grid)) +
   labs(x='Year', y='Number of candidates', fill='Subject group',
        title='Figure 5: AS- and A-level candidates by subject')
